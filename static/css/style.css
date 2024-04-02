@@ -1,0 +1,47 @@
+*{
+    margin:0; 
+    padding:0; 
+    box-sizing: border-box;
+}
+
+body{
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.calholder{
+
+    margin-top:1.5rem;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    justify-items: flex-start;
+    padding:5px;
+}
+.formControls{
+
+    display: flex;
+    justify-content:space-around;
+    padding:0 1rem 0 1rem;
+ 
+}
+
+#result{
+    display:flex; 
+    justify-content: center;
+    align-items: center;
+    margin-top:2rem;
+    color:red;
+}
+
+#btnCalc{
+    margin-left:1rem;
+    cursor:pointer;
+}
+
+#calForm{
+
+    display:flex; 
+    justify-content: space-around;
+    align-items: center;
+}

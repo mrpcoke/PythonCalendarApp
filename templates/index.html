@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/css/style.css">
+    <title>Python Flask Calendar App</title>
+</head>
+<body>
+    <div class="container">
+        <div class="calholder">
+        <form method="post" action="/" id="calForm" name="calForm">
+            <label class="formControls" for="dateFrom">Date From</label><input type="date" name="dateFrom" id="dateFrom" required>
+            <label class="formControls" for="dateTo">Date To</label><input type="date" name="dateTo" id="dateTo" required>
+            <button class="formControls" type="submit" name="btnCalc" id="btnCalc">Calculate Date Difference</button>
+        </form>
+    </div>
+    </div> 
+   <div id="result"></div>
+</body>
+</html>
